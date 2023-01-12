@@ -11,27 +11,48 @@
 <body>
     <header class="header"></header>
 
+    <section class="startGame"></section>
+
     <main class="main">
-        <section class="heard">
-            <img src="photos/heardFull.png">
-            <img src="photos/heardFull.png">
-            <img src="photos/heardFull.png">
-            <img src="photos/heardFull.png">
-            <img src="photos/heardFull.png">
-        </section>
 
         <section class="main_box">
+
+            <div class="backImg"></div>
+
             <div class="letters"></div>
 
+            <div class="heard">
+                <img src="photos/heard.png">
+                <div>10</div>
+            </div>
+
+            <div class="score">
+                <img src="photos/circle1.png">
+                <img src="photos/circle.png">
+                <div>0</div>
+            </div>
+
         </section>
+
+
 
         <section class="main_inputs">
-            <input type="text" name="text" id="text">
-            <button></button>
+            <input type="text" name="text" id="text" placeholder='введіть букву'>
+            <button>check</button>
         </section>
+
+        <div class="opacity"></div>
+
+        <section class="gameOver">
+            <div>
+                <p>Гру закінчено</p>
+                <p>Рахунок: 0</p>
+                <button>Вихід</button>
+            </div>
+        </section>
+
     </main>
 
-    <footer class="footer"></footer>
 
     <script src="js.js"></script>
 </body>
