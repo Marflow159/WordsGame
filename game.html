@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>start game</title>
+    <link rel="stylesheet" href="css/game.css">
+
+</head>
+<body>
+<header class="header"><a href="menu.html">WordsGame</a></header>
+
+<main class="main">
+
+
+  <section class="main_box">
+
+    <div class="backImg"></div>
+
+    <div class="letters"></div>
+
+    <div class="heard">
+      <img src="photos/heard.png" alt="heard">
+      <div>10</div>
+    </div>
+
+    <div class="score">
+      <img src="photos/circle1.png" alt="circle1">
+      <img src="photos/circle.png" alt="circle">
+      <div>0</div>
+    </div>
+
+  </section>
+
+
+
+  <section class="main_inputs">
+    <input type="text" name="text" id="text" placeholder='введіть букву'>
+    <button>check</button>
+  </section>
+
+  <div class="opacity"></div>
+
+  <section class="gameOver">
+    <div>
+      <p>Гру закінчено</p>
+      <p>Загадане слово: <span></span></p>
+      <p>Рахунок: 0</p>
+      <button>Вихід</button>
+    </div>
+  </section>
+
+</main>
+
+<script src="js/js.js"></script>
+</body>
+</html>
