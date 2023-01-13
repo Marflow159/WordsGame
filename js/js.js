@@ -316,7 +316,7 @@ function gameOver() {
     let gameOverButton = document.querySelector(`.gameOver div button`)
 
     gameOverButton.addEventListener(`click`, ()=>{
-        location.replace(`menu.html`)
+        location.replace(`index.html`)
         localStorage.clear()
         numOfScore = 0
     })
